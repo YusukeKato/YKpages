@@ -19,6 +19,7 @@ p {
 }
 .info {
     padding: 20px;
+    text-align: center;
 }
 .info p {
     font-size: 18px;
