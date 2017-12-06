@@ -32,6 +32,7 @@ p {
 }
 .license {
     padding: 20px;
+    text-align: center;
 }
 .license p {
     font-size: 14px;
