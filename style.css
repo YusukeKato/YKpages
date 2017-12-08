@@ -3,12 +3,22 @@
 body {
     font-family: sans-serif;
     color: #8d2e12;
+    background-color: #e7e9d7;
     line-height: 1.8;
 }
 hr {
     border-top: dashed 3px #AAA;
     height: 3px;
     color: #FFFFFF;
+}
+mark {
+    background-color: #E8E9E8;
+}
+a {
+    color: #3f6c35;
+}
+a:hover {
+    color: #0ab64e;
 }
 h1 {
     font-size: 24px;
