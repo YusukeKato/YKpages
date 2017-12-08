@@ -2,7 +2,13 @@
 
 body {
     font-family: sans-serif;
+    color: #8d2e12;
     line-height: 1.8;
+}
+hr {
+    border-top: dashed 3px #AAA;
+    height: 3px;
+    color: #FFFFFF;
 }
 h1 {
     font-size: 24px;
