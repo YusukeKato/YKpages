@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
-    <title>Diary - Kato no Matome</title>
+    <title>C#-文字列 - Kato no Matome</title>
 </head>
 <body>
 <header>
@@ -17,30 +17,36 @@
     <b>|</b>
     <a href="../yk_ros/ros.html">ROS</a>
     <b>|</b>
-    <a href="../yk_programming/programming.html">プログラミング</a>
+    <a href="./programming.html">プログラミング</a>
     <b>|</b>
-    <a href="./diary.html">雑談</a>
+    <a href="../yk_diary/diary.html">雑談</a>
     <b>|</b>
     <a href="https://github.com/yusukekato/">Githubページ</a>
     <hr width="80%">
 </header>
 <article>
     <section class="headline">
-        <h1>雑談</h1>
+        <h1>C# - 文字列</h1>
         <hr width="80%">
     </section>
-    <section class="main">
-        <h1>ちょっとしたこと</h1>
-        <ul>
-            <li><a href="./kowaza01.html">その１</a></li>
-        </ul>
+    <section class="main2">
+        <p>
+            <h1>文字列検索</h1></br>
+            <h2>・検索したい文字列が何番目にあるかを返してくれる</h2>
+            <pre class="gray"><code>
+            string str = "abcdefghijk";
+            int num = 0;
+            num = str.IndexOf("cde");
+            //num = 2
+            num = str.IndexOf("mm");
+            //num = -1
+            </code></pre>
+        </p>
     </section>
-    <section class="main">
-        <h1>Diary</h1>
-        <h2>2017</h2>
-        <ul>
-            <li><a href="./diary_2017_12.html">12.2017</a></li>
-        </ul>
+    <section class="link">
+         <a href="./programming.html">プログラミングトップへ</a>
+         <b>|</b>
+         <a href="../index.html">サイトトップへ</a>
     </section>
     <section class="hootering">
         <hr width="80%">
@@ -52,9 +58,9 @@
         <b>|</b>
         <a href="../yk_ros/ros.html">ROS</a>
         <b>|</b>
-        <a href="../yk_programming/programming.html">プログラミング</a>
+        <a href="./programming.html">プログラミング</a>
         <b>|</b>
-        <a href="./diary.html">雑談</a>
+        <a href="../yk_diary/diary.html">雑談</a>
         <b>|</b>
         <a href="https://github.com/yusukekato/">Githubページ</a>
         <hr width="80%">
@@ -65,5 +71,7 @@
         <p>License : MIT</p>
     </section>
 </article>
+<hooter>
+</hooter>
 </body>
 </html>
