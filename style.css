@@ -12,10 +12,11 @@ hr {
     color: #FFFFFF;
 }
 mark {
-    background-color: #E8E9E8;
+    background-color: #CCCCCC;
 }
 a {
     color: #3f6c35;
+    text-decoration: none;
 }
 a:hover {
     color: #0ab64e;
