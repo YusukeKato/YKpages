@@ -111,7 +111,7 @@ p {
         background-color: #e7e9d7;
         /*background-color: #eafbcf;*/
         line-height: 1.4;
-        overflow: hidden;
+        overflow: auto;
     }
     header {
         width: 100%;
