@@ -25,6 +25,7 @@ hr {
     border-top: dashed 3px #AAA;
     height: 3px;
     color: #FFFFFF;
+    width: 80%;
 }
 mark {
     background-color: #CCCCCC;
@@ -104,6 +105,26 @@ p {
     font-size: 14px;
 }
 @media screen and [max-width: 480px;] {
+    header {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .hootering {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    hr {
+        border-top: dashed 3px #AAA;
+        height: 3px;
+        color: #FFFFFF;
+        width: 100%;
+    }
     h1 {
         font-size: 18px;
     }
