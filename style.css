@@ -3,7 +3,8 @@
 body {
     font-family: sans-serif;
     color: #8d2e12;
-    background-color: #e7e9d7;
+    /*background-color: #e7e9d7;*/
+    background-color: #eafbcf;
     line-height: 1.8;
 }
 header {
@@ -30,10 +31,12 @@ mark {
 }
 pre {
     background-color: #baebb2;
-    line-height: 1.2;
+    line-height: 1.0;
+    width: 80%;
 }
 code {
-    font-size: 18px;
+    font-size: 14px;
+    line-height: 1.0;
 }
 a {
     color: #3f6c35;
@@ -99,4 +102,61 @@ p {
 }
 .license p {
     font-size: 14px;
+}
+@media screen and [max-width: 480px;] {
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 14px;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+    .headline {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .info {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .info p {
+        font-size: 18px;
+    }
+    .main {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
+    }
+    .main2 {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+    .link {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
+    .license {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        text-align: center;
+    }
 }
