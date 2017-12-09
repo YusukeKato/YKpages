@@ -104,7 +104,7 @@ p {
 .license p {
     font-size: 14px;
 }
-@media screen and [max-width: 480px;] {
+@media screen and (max-width: 480px) {
     body {
         font-family: sans-serif;
         color: #8d2e12;
