@@ -111,6 +111,7 @@ p {
         background-color: #e7e9d7;
         /*background-color: #eafbcf;*/
         line-height: 1.4;
+        overflow: hidden;
     }
     header {
         width: 100%;
@@ -179,6 +180,7 @@ p {
         margin-right: auto;
         padding: 10px;
         text-align: center;
+        font-size: 14px;
     }
     .license {
         width: 100%;
