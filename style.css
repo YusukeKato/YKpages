@@ -5,20 +5,20 @@ body {
     color: #8d2e12;
     background-color: #e7e9d7;
     /*background-color: #f0ffbe;*/
-    line-height: 1.8;
+    line-height: 1.6;
 }
 header {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .hootering {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 hr {
@@ -56,20 +56,20 @@ p {
     font-size: 16px;
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 1.8;
+    line-height: 1.6;
 }
 .headline {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .info {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .info p {
@@ -79,26 +79,26 @@ p {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
 }
 .main2 {
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
 }
 .link {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .license {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
 }
 .license p {
