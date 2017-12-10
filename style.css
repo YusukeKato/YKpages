@@ -31,7 +31,7 @@ mark {
     background-color: #CCCCCC;
 }
 pre {
-    background-color: #baebb2;
+    background-color: #77F09D;
     line-height: 1.0;
     width: 80%;
 }
@@ -40,11 +40,11 @@ code {
     line-height: 1.0;
 }
 a {
-    color: #3f6c35;
+    color: #140470;
     text-decoration: none;
 }
 a:hover {
-    color: #0ab64e;
+    color: #10F167;
 }
 h1 {
     font-size: 24px;

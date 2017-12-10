@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>UnityでGoogleTango - Kato no Matome</title>
+</head>
+<body>
+<header>
+    <hr>
+    <a href="../index.html">トップ</a>
+    <b>|</b>
+    <a href="../update.html">更新情報</a>
+    <b>|</b>
+    <a href="./unity.html">Unity</a>
+    <b>|</b>
+    <a href="../yk_ros/ros.html">ROS</a>
+    <b>|</b>
+    <a href="../yk_programming/programming.html">プログラミング</a>
+    <b>|</b>
+    <a href="../yk_diary/diary.html">雑談</a>
+    <b>|</b>
+    <a href="https://github.com/yusukekato/">Githubページ</a>
+    <hr>
+</header>
+<article>
+    <section class="headline">
+        <h1>UnityでGoogleTango</h1>
+        <hr>
+    </section>
+    <section class="main2">
+        <p>
+            UnityでGoogleTango用のアプリを作成する方法です。</br>
+        </br>
+            <b>環境</b></br>
+            <ul>
+                <li>Unity : 5.5</li>
+                <li>Tango : ZenFoneAR</li>
+            </ul>
+            * Unity5.6以降だとだめっぽいです。Unity5.5使うのをお勧めします。</br>
+        </br>
+        </br>
+            <b>Tangoライブラリをインポート</b></br></br>
+            ・公式からライブラリをダウンロード</br>
+            URL : <a href="https://developers.google.com/tango/downloads">https://developers.google.com/tango/downloads</a></br>
+            ・ダウンロードしたライブラリをインポート</br>
+            （UnityエディタのAssetフォルダへドラック＆ドロップでいけます。）</br>
+        </br>
+        </br>
+            <b>サンプルのシーンを開く</b></br></br>
+            ・インポートしたTangoライブラリの中のサンプルシーンを開く（好きなやつ）</br>
+            （Assets > TangoSDK > Examples > Scenes > MarkerDetection.unity）</br>
+        </br>
+        </br>
+            <b>実機へビルド</b></br></br>
+            ・Build Settingを開く</br>
+            ・「Add Open Scenes」を押して、シーンを登録</br>
+            ・PlatformでAndroidを選択して「Switch Platform」を押す</br>
+            ・「Player Setting」を押して必要な設定する（大事です。）</br>
+            ・実機端末側の設定で「USBデバッグ」を有効にする</br>
+            ・ビルド</br>
+        </br>
+        </br>
+            <b>その後</b></br></br>
+            ・サンプルコードをいじる</br>
+        </br>
+        </p>
+    </section>
+    <section class="link">
+        <a href="./unity.html">Unityトップへ</a>
+        <b>|</b>
+        <a href="../index.html">サイトトップへ</a>
+    </section>
+    <section class="hootering">
+        <hr>
+        <a href="../index.html">トップ</a>
+        <b>|</b>
+        <a href="../update.html">更新情報</a>
+        <b>|</b>
+        <a href="./unity.html">Unity</a>
+        <b>|</b>
+        <a href="../yk_ros/ros.html">ROS</a>
+        <b>|</b>
+        <a href="../yk_programming/programming.html">プログラミング</a>
+        <b>|</b>
+        <a href="../yk_diary/diary.html">雑談</a>
+        <b>|</b>
+        <a href="https://github.com/yusukekato/">Githubページ</a>
+        <hr>
+    </section>
+    <section class="license">
+        <hr>
+        <p>Copyright &copy 2017 Yusuke Kato, All rights reserved.</p>
+        <p>License : MIT</p>
+    </section>
+</article>
+</body>
+</html>
