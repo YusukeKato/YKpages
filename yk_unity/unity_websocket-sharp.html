@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
-    <title>Unity - Kato no Matome</title>
+    <title>UnityとROSの通信 - Kato no Matome</title>
 </head>
 <body>
 <header>
@@ -26,19 +26,38 @@
 </header>
 <article>
     <section class="headline">
-        <h1>Unity no Matome</h1>
+        <h1>UnityとROSの通信
+        </h1>
         <hr>
     </section>
-    <section class="main">
-        <h2>目次</h2>
-        <ul>
-            <li><a href="./unity_rotation.html">Unityの回転について</a></li>
-            <li><a href="./unity_tango.html">UnityでGoogleTango</a></li>
-            <li><a href="./unity_websocket-sharp.html">UnityとROSの通信</a></li>
-        </ul>
+    <section class="main2">
+        <p>
+            UnityとROSでWebsocketを使って通信します。</br>
+        </br>
+        </br>
+        <h2>Unity側</h2>
+        </br>
+            <b>Websocket-sharpをインポート</b></br></br>
+            ・Websocket-sharpをダウンロード</br>
+            URL : <a href="https://github.com/sta/websocket-sharp">https://github.com/sta/websocket-sharp</a></br>
+            ・websocket-sharp.slnをビルド（VisualStudio）して、websocket-sharp.dllを取得</br>
+            ・websocket-sharp.dllをインポート</br>
+        </br>
+        </br>
+        <h2>ROS側</h2>
+        </br>
+            <b>rosbridge_serverを使う</b></br></br>
+            以下を参照</br>
+            <a href="../yk_ros/rosbridge.html">rosbridgeで外部と通信</a></br>
+        </p>
+    </section>
+    <section class="link">
+        <a href="./unity.html">Unityトップへ</a>
+        <b>|</b>
+        <a href="../index.html">サイトトップへ</a>
     </section>
     <section class="hootering">
-        <hr width="80%">
+        <hr>
         <a href="../index.html">トップ</a>
         <b>|</b>
         <a href="../update.html">更新情報</a>
@@ -52,10 +71,10 @@
         <a href="../yk_diary/diary.html">雑談</a>
         <b>|</b>
         <a href="https://github.com/yusukekato/">Githubページ</a>
-        <hr width="80%">
+        <hr>
     </section>
     <section class="license">
-        <hr width="80%">
+        <hr>
         <p>Copyright &copy 2017 Yusuke Kato, All rights reserved.</p>
         <p>License : MIT</p>
     </section>
