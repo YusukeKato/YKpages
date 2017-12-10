@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>Unityの回転 - Kato no Matome</title>
+</head>
+<body>
+<header>
+    <hr width="80%">
+    <a href="../index.html">トップ</a>
+    <b>|</b>
+    <a href="../update.html">更新情報</a>
+    <b>|</b>
+    <a href="./unity.html">Unity</a>
+    <b>|</b>
+    <a href="../yk_ros/ros.html">ROS</a>
+    <b>|</b>
+    <a href="../yk_programming/programming.html">プログラミング</a>
+    <b>|</b>
+    <a href="../yk_diary/diary.html">雑談</a>
+    <b>|</b>
+    <a href="https://github.com/yusukekato/">Githubページ</a>
+    <hr width="80%">
+</header>
+<article>
+    <section class="headline">
+        <h1>Unityの回転</h1>
+        <hr>
+    </section>
+    <section class="main2">
+        <p>
+            <b>種類</b></br>
+            Unityではオブジェクトの姿勢をオイラー角とクウォータニオンで表現できる。</br>
+            Unityの内部ではクウォータニオンが使われている。</br>
+            クウォータニオンは直観的には理解できないため、オイラー角も使えるようにしているらしい。</br>
+            <mark> objectName.transform.rotation </mark>はクウォータニオン。</br>
+        </br>
+            <b>回転方法</b></br>
+            回転方法１：オイラー角で（オブジェクトの座標系で回転）</br>
+            <mark> objectName.transform.Rotate(x, y, z); </mark></br>
+            回転方法２：オイラー角で（絶対座標系で回転）</br>
+            <mark> objectName.transform.rotation = Quaternion.Euler(x, y, z); </mark></br>
+            回転方法３：クウォータニオンで</br>
+            <mark> Quaternion quat = new Quaternion(x, y, z, w); </mark></br>
+            <mark> objectName.transform.rotation *= quat;</mark></br>
+        </br>
+            <b>クウォータニオンをオイラー角へ</b></br>
+            <mark> Quaternion quat = new Quaternion(x, y, z, w); </mark></br>
+            <mark> Vector3 eule = quat.eulerAngles;</mark></br>
+        </br>
+            <b>座標系について</b></br>
+            オブジェクトを回転させると、オブジェクトの座標系も回転する。</br>
+            思ったように回転させられないときは、絶対座標系（ワールド座標系）で回転させると良さそう。</br>
+            ROSもロボットの姿勢はクウォータニオンで表している。</br>
+        </p>
+        </p>
+    </section>
+    <section class="link">
+        <a href="./unity.html">Unityトップへ</a>
+        <b>|</b>
+        <a href="../index.html">サイトトップへ</a>
+    </section>
+    <section class="hootering">
+        <hr width="80%">
+        <a href="../index.html">トップ</a>
+        <b>|</b>
+        <a href="../update.html">更新情報</a>
+        <b>|</b>
+        <a href="./unity.html">Unity</a>
+        <b>|</b>
+        <a href="../yk_ros/ros.html">ROS</a>
+        <b>|</b>
+        <a href="../yk_programming/programming.html">プログラミング</a>
+        <b>|</b>
+        <a href="../yk_diary/diary.html">雑談</a>
+        <b>|</b>
+        <a href="https://github.com/yusukekato/">Githubページ</a>
+        <hr width="80%">
+    </section>
+    <section class="license">
+        <hr width="80%">
+        <p>Copyright &copy 2017 Yusuke Kato, All rights reserved.</p>
+        <p>License : MIT</p>
+    </section>
+</article>
+</body>
+</html>
