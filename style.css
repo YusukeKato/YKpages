@@ -167,6 +167,8 @@ p {
         margin-top: 0;
         margin-bottom: 0;
         line-height: 1.2;
+        margin-left: auto;
+        margin-right: auto;
     }
     .headline {
         width: 100%;
@@ -221,12 +223,16 @@ p {
         padding-left: 10px;
         font-size: 14px;
         overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     code {
         font-size: 14px;
         line-height: 1.0;
         width: 100%;
         overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
     div {
         width: 100%;
