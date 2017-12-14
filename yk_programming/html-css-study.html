@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../style.css">
+    <title>HTML CSS 勉強 - Kato no Matome</title>
+</head>
+<body>
+<header>
+    <hr>
+    <a href="../index.html">トップ</a>
+    <b>|</b>
+    <a href="../update.html">更新情報</a>
+    <b>|</b>
+    <a href="../yk_unity/unity.html">Unity</a>
+    <b>|</b>
+    <a href="../yk_ros/ros.html">ROS</a>
+    <b>|</b>
+    <a href="./programming.html">プログラミング</a>
+    <b>|</b>
+    <a href="../yk_diary/diary.html">雑談</a>
+    <b>|</b>
+    <a href="https://github.com/yusukekato/">Githubページ</a>
+    <hr>
+</header>
+<article>
+    <section class="headline">
+        <h1>HTML,CSSの勉強</h1>
+        <hr>
+    </section>
+    <section class="main2">
+        <p>
+            ブログを書きつつ、HTMLも一緒に勉強すれば、一石二鳥。<br>
+            だと思いましたが、手作り感がすごいページができてしまいました。<br>
+            やっぱり、他の人が作った優れたフレームワークを使った方がいいかもしれません。<br>
+        <br>
+        </p>
+        <p>
+        <h2>HTMLの例</h2>
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="ja"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;
+    &lt;link rel="stylesheet" href="./style.css"&gt;
+    &lt;title&gt;タイトル&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+
+</code></pre>
+</br>
+        <h2>よく使うタグ</h2>
+<pre><code>
+&lt;h1&gt;見出し（大きい）&lt;/h1&gt;
+......
+&lt;h6&gt;見出し（小さい）&lt;/h6&gt;
+&lt;p&gt;段落、文章&lt;/p&gt;
+&lt;a href="URL"&gt;リンクを貼る&lt;/a&gt;
+&lt;br&gt; 改行
+&lt;hr&gt; 線
+&lt;b&gt;&lt;/b&gt; 太文字
+&lt;div&gt;
+    一つのかたまり
+&lt;/div&gt;
+&lt;article&gt;
+    大きい記事
+&lt;/article&gt;
+&lt;section&gt;
+    一区分、小記事
+&lt;/section&gt;
+
+</code></pre>
+<br>
+        <h2>CSSについて（CSSはまだよくわかりません。）</h2>
+<pre><code>
+ファイルの最初に書く
+@charset "utf-8"; 
+
+タグの設定
+body {
+    font-family: sans-serif;
+    color: #FFFFFF;
+    background-color: #EEEEEE;
+    line-height: 1.6;
+}
+
+クラスの設定
+.className {
+    padding: 10px;
+    text-align: center;
+}
+</code></pre>
+        </p>
+        <p>
+            <br>
+            CSS難しいです。<br>
+            暇つぶし程度に勉強していきます。<br>
+            <br>
+        </p>
+    </section>
+    <section class="link">
+         <a href="./programming.html">プログラミングトップへ</a>
+         <b>|</b>
+         <a href="../index.html">サイトトップへ</a>
+    </section>
+    <section class="hootering">
+        <hr>
+        <a href="../index.html">トップ</a>
+        <b>|</b>
+        <a href="../update.html">更新情報</a>
+        <b>|</b>
+        <a href="../yk_unity/unity.html">Unity</a>
+        <b>|</b>
+        <a href="../yk_ros/ros.html">ROS</a>
+        <b>|</b>
+        <a href="./programming.html">プログラミング</a>
+        <b>|</b>
+        <a href="../yk_diary/diary.html">雑談</a>
+        <b>|</b>
+        <a href="https://github.com/yusukekato/">Githubページ</a>
+        <hr>
+    </section>
+    <section class="license">
+        <hr>
+        <p>Copyright &copy 2017 Yusuke Kato, All rights reserved.</p>
+        <p>License : MIT</p>
+    </section>
+</article>
+<hooter>
+</hooter>
+</body>
+</html>

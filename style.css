@@ -21,6 +21,9 @@ header {
     padding: 10px;
     text-align: center;
 }
+pre {
+    padding-left: 10px;
+}
 hr {
     border-top: dashed 3px #AAA;
     height: 3px;
@@ -31,11 +34,12 @@ mark {
     background-color: #CCCCCC;
 }
 pre {
-    background-color: #77F09D;
+    background-color: #000803;
     line-height: 1.0;
     width: 80%;
 }
 code {
+    color: #FFFFFF;
     font-size: 14px;
     line-height: 1.0;
 }
