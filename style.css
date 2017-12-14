@@ -3,7 +3,7 @@
 body {
     font-family: sans-serif;
     color: #8d2e12;
-    background-color: #e7e9d7;
+    background-color: #F7F8F0;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
 }
@@ -32,9 +32,12 @@ mark {
 }
 pre {
     background-color: #000803;
+    color: #FFFFFF;
     line-height: 1.0;
     width: 80%;
+    padding-top: 10px;
     padding-left: 10px;
+    font-size: 14px;
 }
 code {
     color: #FFFFFF;
@@ -111,7 +114,7 @@ p {
     body {
         font-family: sans-serif;
         color: #8d2e12;
-        background-color: #e7e9d7;
+        background-color: #BCBDB6;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
     }
@@ -192,10 +195,13 @@ p {
         text-align: center;
     }
     pre {
+        background-color: #000803;
         color: #FFFFFF;
-        background-color: #0A0A0A;
         line-height: 1.0;
         width: 100%;
+        padding-top: 10px;
+        padding-left: 10px;
+        font-size: 14px;
     }
     code {
         font-size: 14px;
