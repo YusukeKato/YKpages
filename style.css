@@ -155,12 +155,18 @@ p {
         height: 3px;
         color: #FFFFFF;
         width: 100%;
+        margin-left: auto;
+        margin-right: auto;
     }
     h1 {
         font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
     }
     h2 {
         font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
     }
     p {
         font-size: 12px;
