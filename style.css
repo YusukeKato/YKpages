@@ -21,9 +21,6 @@ header {
     padding: 10px;
     text-align: center;
 }
-pre {
-    padding-left: 10px;
-}
 hr {
     border-top: dashed 3px #AAA;
     height: 3px;
@@ -37,11 +34,13 @@ pre {
     background-color: #000803;
     line-height: 1.0;
     width: 80%;
+    padding-left: 10px;
 }
 code {
     color: #FFFFFF;
     font-size: 14px;
     line-height: 1.0;
+    width: 80%;
 }
 a {
     color: #140470;
@@ -193,12 +192,14 @@ p {
         text-align: center;
     }
     pre {
-        background-color: #baebb2;
+        color: #FFFFFF;
+        background-color: #0A0A0A;
         line-height: 1.0;
         width: 100%;
     }
     code {
         font-size: 14px;
         line-height: 1.0;
+        width: 100%;
     }
 }
