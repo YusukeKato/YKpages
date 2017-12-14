@@ -6,6 +6,7 @@ body {
     background-color: #F7F8F0;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
+    overflow: auto;
 }
 header {
     width: 80%;
