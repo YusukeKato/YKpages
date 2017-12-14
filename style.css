@@ -2,8 +2,8 @@
 
 body {
     font-family: sans-serif;
-    color: #8d2e12;
-    background-color: #F7F8F0;
+    color: #29211F;
+    background-color: #FDFDFB;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
     overflow: auto;
@@ -129,8 +129,8 @@ p {
 @media screen and (max-width: 480px) {
     body {
         font-family: sans-serif;
-        color: #8d2e12;
-        background-color: #EEE7F7;
+        color: #252222;
+        background-color: #F6F4F8;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin-left: 0px;
@@ -138,15 +138,15 @@ p {
     }
     header {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
     }
     .hootering {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
     }
@@ -155,38 +155,38 @@ p {
         height: 3px;
         color: #FFFFFF;
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     h1 {
         font-size: 16px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     h2 {
         font-size: 14px;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     p {
         font-size: 12px;
         margin-top: 0;
         margin-bottom: 0;
         line-height: 1.2;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .headline {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
     }
     .info {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
     }
@@ -195,8 +195,8 @@ p {
     }
     .main {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
     }
     .main2 {
@@ -207,16 +207,16 @@ p {
     }
     .link {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
         font-size: 14px;
     }
     .license {
         width: 96%;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 10px;
         text-align: center;
     }
@@ -229,16 +229,16 @@ p {
         padding-left: 10px;
         font-size: 14px;
         overflow: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     code {
         font-size: 14px;
         line-height: 1.0;
         width: 100%;
         overflow: auto;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     div {
         width: 100%;
