@@ -140,7 +140,7 @@ section {
         margin-right: 0px;
     }
     header {
-        width: 96%;
+        width: 90%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -182,7 +182,8 @@ section {
         width: 96%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         text-align: center;
     }
     .info {
@@ -245,5 +246,14 @@ section {
     div {
         width: 96%;
         padding-left: 4px;
+    }
+    a {
+        color: #140470;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    a:hover {
+        color: #10F167;
+        font-size: 12px;
     }
 }
