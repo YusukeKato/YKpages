@@ -138,12 +138,11 @@ section {
         line-height: 1.4;
         margin: auto;
         overflow: auto;
-        width: 94%;
     }
     header {
         width: 94%;
-        margin-top: 5px;
-        margin-bottom: -5px;
+        margin-top: 2px;
+        margin-bottom: -2px;
         margin-left: auto;
         margin-right: auto;
         padding: auto;
@@ -196,7 +195,7 @@ section {
         text-align: center;
     }
     .info p {
-        font-size: 10px;
+        font-size: 12px;
     }
     .main {
         margin: auto;
@@ -210,24 +209,25 @@ section {
         margin: auto;
         padding: auto;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
     }
     .license {
         margin: auto;
         padding: auto;
         text-align: center;
+        font-size: 10px;
     }
     pre {
         background-color: #000803;
         color: #FFFFFF;
         line-height: 1.4;
-        font-size: 10px;
+        font-size: 12px;
         overflow: auto;
         margin: auto;
         padding: auto;
     }
     code {
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.4;
         overflow: auto;
         margin: auto;
@@ -237,8 +237,10 @@ section {
         width: 94%;
     }
     article {
+        width: 94%;
         margin: auto;
         padding: auto;
         background-color: #FFFFFF;
+        overflow: auto;
     }
 }
