@@ -3,17 +3,17 @@
 body {
     font-family: sans-serif;
     color: #29211F;
-    background-color: #FDFDFB;
+    background-color: #D3D3BB;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
     overflow: auto;
 }
 header {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     text-align: center;
+    background-color: #FFFFFF;
 }
 .hootering {
     width: 80%;
@@ -21,10 +21,10 @@ header {
     margin-right: auto;
     padding: 10px;
     text-align: center;
+    background-color: #FFFFFF;
 }
 hr {
-    border-top: dashed 3px #AAA;
-    height: 3px;
+    border: 2px #AAA;
     color: #FFFFFF;
     width: 100%;
 }
@@ -121,30 +121,37 @@ p {
 .license p {
     font-size: 14px;
 }
+article {
+    width: 80%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: auto;
+}
 @media screen and (max-width: 480px) {
     body {
         font-family: sans-serif;
         color: #252222;
-        background-color: #F6F4F8;
+        background-color: #BCB1CC;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin: auto;
     }
     header {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: auto;
+        padding: auto;
         text-align: center;
+        background-color: #FFFFFF;
     }
     .hootering {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: auto;
+        padding: auto;
         text-align: center;
+        background-color: #FFFFFF;
     }
     hr {
-        border-top: dashed 3px #AAA;
-        height: 3px;
+        border: 2px #AAA;
         color: #FFFFFF;
         width: 94%;
         margin-left: 0px;
@@ -224,5 +231,11 @@ p {
     }
     div {
         width: 96%;
+    }
+    article {
+        width: 96%;
+        margin: auto;
+        padding: auto;
+        background-color: #FFFFFF;
     }
 }
