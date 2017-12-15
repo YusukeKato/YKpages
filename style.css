@@ -137,7 +137,8 @@ section {
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin: auto 2px auto 2px;
-        overflow: auto 2px auto 2px;
+        padding: auto 2px auto 2px;
+        overflow: auto;
         width: 94%;
     }
     header {
