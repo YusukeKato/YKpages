@@ -36,12 +36,16 @@
             Unityの内部ではクウォータニオンが使われている。</br>
             クウォータニオンは直観的には理解できないため、オイラー角も使えるようにしているらしい。</br>
             <mark> objectName.transform.rotation </mark>はクウォータニオン。</br>
-        </br>
+        <br>
+        <br>
             <b>回転方法</b></br>
+            <br>
             回転方法１：オイラー角で（オブジェクトの座標系で回転）</br>
             <mark> objectName.transform.Rotate(x, y, z); </mark></br>
+            <br>
             回転方法２：オイラー角で（絶対座標系で回転）</br>
             <mark> objectName.transform.rotation = Quaternion.Euler(x, y, z); </mark></br>
+            <br>
             回転方法３：クウォータニオンで</br>
             <mark> Quaternion quat = new Quaternion(x, y, z, w); </mark></br>
             <mark> objectName.transform.rotation *= quat;</mark></br>
@@ -49,7 +53,8 @@
             <b>クウォータニオンをオイラー角へ</b></br>
             <mark> Quaternion quat = new Quaternion(x, y, z, w); </mark></br>
             <mark> Vector3 eule = quat.eulerAngles;</mark></br>
-        </br>
+        <br>
+        <br>
             <b>座標系について</b></br>
             オブジェクトを回転させると、オブジェクトの座標系も回転する。</br>
             思ったように回転させられないときは、絶対座標系（ワールド座標系）で回転させると良さそう。</br>
