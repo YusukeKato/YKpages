@@ -140,7 +140,7 @@ section {
         margin-right: 0px;
     }
     header {
-        width: 96%;
+        width: 90%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -154,7 +154,7 @@ section {
         text-align: center;
     }
     hr {
-        border-top: solid 2px #AAA;
+        border-top: 2px #AAA;
         color: #FFFFFF;
         width: 96%;
         margin-left: 0px;
