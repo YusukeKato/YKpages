@@ -136,11 +136,14 @@ section {
         background-color: #BCB1CC;
         line-height: 1.4;
         width: 94%;
-        margin: 0;
+        margin: auto;
+        padding: auto;
     }
     header {
         width: 94%;
         background-color: #FFFFFF;
+        margin: auto;
+        padding: auto;
     }
     .hootering {
         width: 80%;
