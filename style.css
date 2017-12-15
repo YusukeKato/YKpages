@@ -171,7 +171,7 @@ section {
     }
     .headline {
         width: 94%;
-        text-align: left;
+        text-align: center;
     }
     .info {
         width: 94%;
@@ -215,7 +215,7 @@ section {
     article {
         width: 94%;
         background-color: #FFFFFF;
-        overflow: auto;
+        overflow: none;
     }
     section {
         width: 94%;
