@@ -3,23 +3,25 @@
 body {
     font-family: sans-serif;
     color: #000000;
-    background-color: #D3D3BB;
+    background-color: #D8D8C0;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
     overflow: auto;
+    margin: auto auto auto auto;
 }
 header {
     width: 80%;
-    margin: auto;
-    padding: auto;
+    margin: 20px auto -10px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     background-color: #FFFFFF;
 }
 .hootering {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
     background-color: #FFFFFF;
 }
@@ -65,6 +67,7 @@ a:hover {
 }
 h1 {
     font-size: 24px;
+    margin: 0px;
 }
 h2 {
     font-size: 18px;
@@ -77,7 +80,7 @@ p {
 }
 .headline {
     width: 80%;
-    margin: auto;
+    margin: 0px auto 0px auto;
     padding: 40px;
     text-align: center;
 }
@@ -137,7 +140,10 @@ section {
     }
     header {
         width: 94%;
-        margin: 0px auto 0px auto;
+        margin-top: 5px;
+        margin-bottom: -5px;
+        margin-left: auto;
+        margin-right: auto;
         padding: auto;
         text-align: center;
         background-color: #FFFFFF;
@@ -165,6 +171,15 @@ section {
         font-size: 12px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    a {
+        color: #140470;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    a:hover {
+        color: #10F167;
+        font-size: 12px;
     }
     p {
         font-size: 10px;
@@ -236,8 +251,5 @@ section {
         margin: auto;
         padding: auto;
         background-color: #FFFFFF;
-    }
-    section {
-        padding: 4px;
     }
 }
