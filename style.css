@@ -134,9 +134,9 @@ section {
         font-family: sans-serif;
         color: #000000;
         background-color: #BCB1CC;
-        /*background-color: #ffffbe;*/
         line-height: 1.4;
         width: 94%;
+        margin: 0;
     }
     header {
         width: 94%;
@@ -204,7 +204,6 @@ section {
         line-height: 1.4;
         font-size: 12px;
         width: 94%;
-        width: 94%;
     }
     code {
         font-size: 12px;
@@ -217,6 +216,7 @@ section {
     article {
         width: 94%;
         background-color: #FFFFFF;
+        margin: 0;
     }
     section {
         width: 94%;
