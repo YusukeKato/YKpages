@@ -150,6 +150,7 @@ section {
         overflow: auto;
     }
     .hootering {
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -184,11 +185,13 @@ section {
         line-height: 1.2;
     }
     .headline {
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
     }
     .info {
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -221,6 +224,7 @@ section {
         color: #FFFFFF;
         line-height: 1.4;
         font-size: 12px;
+        width: 94%;
         overflow: auto;
         margin: auto;
         padding: auto;
@@ -241,5 +245,8 @@ section {
         padding: auto;
         background-color: #FFFFFF;
         overflow: auto;
+    }
+    section {
+        width: 94%;
     }
 }
