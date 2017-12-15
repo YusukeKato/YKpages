@@ -213,9 +213,9 @@ section {
         width: 94%;
     }
     article {
-        width: 94%;
+        width: 450px;
         background-color: #FFFFFF;
-        overflow: none;
+        overflow: auto;
     }
     section {
         width: 94%;
