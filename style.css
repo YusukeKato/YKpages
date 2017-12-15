@@ -204,16 +204,19 @@ section {
         padding: auto;
     }
     .main2 {
+        width: 94%;
         margin: auto;
         padding: auto;
     }
     .link {
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
         font-size: 12px;
     }
     .license {
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -228,6 +231,7 @@ section {
         overflow: auto;
         margin: auto;
         padding: auto;
+        width: 94%;
     }
     code {
         font-size: 12px;
