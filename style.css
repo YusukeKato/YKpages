@@ -137,36 +137,44 @@ p {
         margin-right: 0px;
     }
     header {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
         text-align: center;
     }
     .hootering {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;;
         text-align: center;
     }
     hr {
         border-top: dashed 3px #AAA;
         height: 3px;
         color: #FFFFFF;
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     h1 {
         font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     h2 {
         font-size: 14px;
         margin-left: 0px;
         margin-right: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     p {
         font-size: 12px;
@@ -175,66 +183,75 @@ p {
         line-height: 1.2;
         margin-left: 0px;
         margin-right: 0px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     .headline {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
         text-align: center;
     }
     .info {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
         text-align: center;
     }
     .info p {
         font-size: 12px;
     }
     .main {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;;
     }
     .main2 {
-        width: 96%;
+        width: 94%;
         margin-left: 0;
         margin-right: 0;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
     }
     .link {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
     }
     .license {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding: 4px;
+        padding-left: 4px;
+        padding-right: 4px;
         text-align: center;
     }
     pre {
         background-color: #000803;
         color: #FFFFFF;
-        line-height: 1.0;
-        width: 96%;
+        line-height: 1.2;
+        width: 94%;
         padding-top: 4px;
         padding-left: 4px;
-        font-size: 14px;
+        padding-right: 4px;
+        font-size: 12px;
         overflow: auto;
         margin-left: 0px;
         margin-right: 0px;
     }
     code {
-        font-size: 14px;
-        line-height: 1.0;
+        font-size: 12px;
+        line-height: 1.2;
         width: 100%;
         overflow: auto;
         margin-left: 0px;
@@ -243,5 +260,6 @@ p {
     div {
         width: 96%;
         padding-left: 4px;
+        padding-right: 4px;
     }
 }
