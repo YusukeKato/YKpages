@@ -137,14 +137,13 @@ section {
         line-height: 1.4;
         width: 94%;
         margin: 0;
-        padding-right: -60px;
     }
     header {
         width: 94%;
         background-color: #FFFFFF;
     }
     .hootering {
-        width: 94%;
+        width: 80%;
         background-color: #FFFFFF;
     }
     hr {
@@ -172,11 +171,11 @@ section {
         line-height: 1.2;
     }
     .headline {
-        width: 94%;
+        width: 80%;
         text-align: center;
     }
     .info {
-        width: 94%;
+        width: 80%;
         text-align: center;
     }
     .info p {
@@ -187,15 +186,15 @@ section {
         padding: auto;
     }
     .main2 {
-        width: 94%;
+        width: 80%;
     }
     .link {
-        width: 94%;
+        width: 80%;
         text-align: center;
         font-size: 12px;
     }
     .license {
-        width: 94%;
+        width: 80%;
         text-align: center;
         font-size: 10px;
     }
@@ -215,7 +214,7 @@ section {
         width: 94%;
     }
     article {
-        width: 94%;
+        width: 80%;
         background-color: #FFFFFF;
         margin: 0;
     }
