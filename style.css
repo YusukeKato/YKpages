@@ -138,13 +138,11 @@ section {
         line-height: 1.4;
         margin: auto;
         overflow: auto;
+        width: 94%;
     }
     header {
         width: 94%;
-        margin-top: 2px;
-        margin-bottom: -2px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 1px auto -1px auto;
         padding: auto;
         text-align: center;
         background-color: #FFFFFF;
