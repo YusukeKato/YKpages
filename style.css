@@ -137,6 +137,7 @@ section {
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin: auto;
+        overflow: auto;
     }
     header {
         width: 94%;
