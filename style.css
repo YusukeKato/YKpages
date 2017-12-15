@@ -136,22 +136,22 @@ section {
         background-color: #BCB1CC;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
-        margin: auto 2px auto 2px;
-        padding: auto 2px auto 2px;
+        margin: auto;
+        padding: atuo;
         overflow: auto;
         width: 94%;
     }
     header {
         width: 94%;
-        margin: 1px 2px -1px 2px;
-        padding: auto 2px auto 2px;
+        margin: 1px auto -1px auto;
+        padding: auto;
         text-align: center;
         background-color: #FFFFFF;
         overflow: auto;
     }
     .hootering {
-        margin: auto 2px auto 2px;
-        padding: auto 2px auto 2px;
+        margin: auto;
+        padding: auto;
         text-align: center;
         background-color: #FFFFFF;
     }
@@ -184,8 +184,8 @@ section {
         line-height: 1.2;
     }
     .headline {
-        margin: auto 2px auto 2px;
-        padding: auto 2px auto 2px;
+        margin: auto;
+        padding: auto;
         text-align: center;
     }
     .info {
@@ -222,8 +222,8 @@ section {
         line-height: 1.4;
         font-size: 12px;
         overflow: auto;
-        margin: auto 2px auto 2px;
-        padding: auto 2px auto 2px;
+        margin: auto;
+        padding: auto;
     }
     code {
         font-size: 12px;
@@ -237,8 +237,8 @@ section {
     }
     article {
         width: 94%;
-        margin: auto 2px auto 2px;
-        padding: auto 2px auto 2px;
+        margin: auto;
+        padding: auto;
         background-color: #FFFFFF;
         overflow: auto;
     }
