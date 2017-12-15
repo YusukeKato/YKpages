@@ -140,7 +140,7 @@ section {
         margin-right: auto;
         padding-left: auto;
         padding-right: auto;
-        overflow: none;
+        overflow: auto;
         width: 94%;
     }
     header {
@@ -151,7 +151,7 @@ section {
         padding-right: auto;
         text-align: center;
         background-color: #FFFFFF;
-        overflow: none;
+        overflow: auto;
     }
     .hootering {
         width: 94%;
@@ -167,6 +167,8 @@ section {
         width: 94%;
         margin-left: auto;
         margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
     }
     h1 {
         font-size: 14px;
@@ -271,9 +273,14 @@ section {
         padding-left: auto;
         padding-right: auto;
         background-color: #FFFFFF;
-        overflow: none;
+        overflow: auto;
     }
     section {
         width: 94%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        overflow: auto;
     }
 }
