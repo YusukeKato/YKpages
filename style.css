@@ -136,28 +136,29 @@ section {
         background-color: #BCB1CC;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
-        margin: auto;
-        padding: auto;
-        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
+        overflow: none;
         width: 94%;
     }
     header {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         text-align: center;
         background-color: #FFFFFF;
-        overflow: auto;
+        overflow: none;
     }
     .hootering {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
-        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         background-color: #FFFFFF;
     }
     hr {
@@ -184,26 +185,26 @@ section {
     }
     p {
         font-size: 10px;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         line-height: 1.2;
     }
     .headline {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         text-align: center;
     }
     .info {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         text-align: center;
     }
     .info p {
@@ -215,26 +216,26 @@ section {
     }
     .main2 {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
     }
     .link {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         text-align: center;
         font-size: 12px;
     }
     .license {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         text-align: center;
         font-size: 10px;
     }
@@ -245,30 +246,30 @@ section {
         font-size: 12px;
         width: 94%;
         overflow: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         width: 94%;
     }
     code {
         font-size: 12px;
         line-height: 1.4;
         overflow: auto;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
     }
     div {
         width: 94%;
     }
     article {
         width: 94%;
-        margin-left: 0px;
-        margin-right: 0px;
-        padding-left: 0px;
-        padding-right: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: auto;
+        padding-right: auto;
         background-color: #FFFFFF;
         overflow: none;
     }
