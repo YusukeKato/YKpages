@@ -138,6 +138,7 @@ section {
         line-height: 1.4;
         margin: auto;
         overflow: auto;
+        width: 94%;
     }
     header {
         width: 94%;
@@ -148,9 +149,9 @@ section {
         padding: auto;
         text-align: center;
         background-color: #FFFFFF;
+        overflow: auto;
     }
     .hootering {
-        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -172,11 +173,11 @@ section {
     a {
         color: #140470;
         text-decoration: none;
-        font-size: 10px;
+        font-size: 12px;
     }
     a:hover {
         color: #0EF065;
-        font-size: 10px;
+        font-size: 12px;
     }
     p {
         font-size: 10px;
@@ -185,13 +186,11 @@ section {
         line-height: 1.2;
     }
     .headline {
-        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
     }
     .info {
-        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -200,24 +199,20 @@ section {
         font-size: 10px;
     }
     .main {
-        width: 94%;
         margin: auto;
         padding: auto;
     }
     .main2 {
-        width: 94%;
         margin: auto;
         padding: auto;
     }
     .link {
-        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
         font-size: 10px;
     }
     .license {
-        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -226,7 +221,6 @@ section {
         background-color: #000803;
         color: #FFFFFF;
         line-height: 1.4;
-        width: 94%;
         font-size: 10px;
         overflow: auto;
         margin: auto;
@@ -235,16 +229,14 @@ section {
     code {
         font-size: 10px;
         line-height: 1.4;
-        width: 100%;
         overflow: auto;
         margin: auto;
         padding: auto;
     }
     div {
-        width: 96%;
+        width: 94%;
     }
     article {
-        width: 96%;
         margin: auto;
         padding: auto;
         background-color: #FFFFFF;
