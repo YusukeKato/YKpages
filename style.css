@@ -133,7 +133,7 @@ section {
     body {
         font-family: sans-serif;
         color: #252222;
-        background-color: #F6F4F8;
+        background-color: #E1D7EB;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin-left: 0px;
@@ -154,20 +154,19 @@ section {
         text-align: center;
     }
     hr {
-        border-top: dashed 3px #AAA;
-        height: 3px;
+        border-top: solid 2px #AAA;
         color: #FFFFFF;
         width: 96%;
         margin-left: 0px;
         margin-right: 0px;
     }
     h1 {
-        font-size: 16px;
+        font-size: 14px;
         margin-left: 0px;
         margin-right: 0px;
     }
     h2 {
-        font-size: 14px;
+        font-size: 12px;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -214,7 +213,7 @@ section {
         margin-right: 0px;
         padding: 4px;
         text-align: center;
-        font-size: 14px;
+        font-size: 12px;
     }
     .license {
         width: 96%;
@@ -230,13 +229,13 @@ section {
         width: 96%;
         padding-top: 4px;
         padding-left: 4px;
-        font-size: 14px;
+        font-size: 12px;
         overflow: auto;
         margin-left: 0px;
         margin-right: 0px;
     }
     code {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 1.0;
         width: 100%;
         overflow: auto;
