@@ -140,16 +140,12 @@ p {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
         text-align: center;
     }
     .hootering {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;;
         text-align: center;
     }
     hr {
@@ -159,22 +155,16 @@ p {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
     }
     h1 {
         font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
     }
     h2 {
         font-size: 14px;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
     }
     p {
         font-size: 12px;
@@ -183,23 +173,17 @@ p {
         line-height: 1.2;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
     }
     .headline {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
         text-align: center;
     }
     .info {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
         text-align: center;
     }
     .info p {
@@ -209,22 +193,16 @@ p {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;;
     }
     .main2 {
         width: 94%;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 4px;
-        padding-right: 4px;
     }
     .link {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
         text-align: center;
         font-size: 12px;
     }
@@ -232,8 +210,6 @@ p {
         width: 94%;
         margin-left: 0px;
         margin-right: 0px;
-        padding-left: 4px;
-        padding-right: 4px;
         text-align: center;
     }
     pre {
@@ -241,9 +217,6 @@ p {
         color: #FFFFFF;
         line-height: 1.2;
         width: 94%;
-        padding-top: 4px;
-        padding-left: 4px;
-        padding-right: 4px;
         font-size: 12px;
         overflow: auto;
         margin-left: 0px;
@@ -256,6 +229,7 @@ p {
         overflow: auto;
         margin-left: 0px;
         margin-right: 0px;
+        padding: 2px;
     }
     div {
         width: 96%;
