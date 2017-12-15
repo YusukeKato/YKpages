@@ -2,7 +2,7 @@
 
 body {
     font-family: sans-serif;
-    color: #29211F;
+    color: #000000;
     background-color: #D3D3BB;
     /*background-color: #f0ffbe;*/
     line-height: 1.6;
@@ -25,8 +25,7 @@ header {
 }
 hr {
     border: 2px #AAA;
-    color: #FFFFFF;
-    width: 100%;
+    width: 80%;
 }
 mark {
     background-color: #CCCCCC;
@@ -69,6 +68,7 @@ h1 {
 }
 h2 {
     font-size: 18px;
+    padding: 8px;
 }
 p {
     font-size: 16px;
@@ -77,16 +77,14 @@ p {
 }
 .headline {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: 40px;
     text-align: center;
 }
 .info {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: 20px;
     text-align: center;
 }
 .info p {
@@ -100,22 +98,19 @@ p {
 }
 .main2 {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
 }
 .link {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     text-align: center;
 }
 .license {
     width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
+    margin: auto;
+    padding: auto;
     text-align: center;
 }
 .license p {
@@ -127,10 +122,14 @@ article {
     margin: auto;
     padding: auto;
 }
+section {
+    margin: 10px;
+    padding: 10px;
+}
 @media screen and (max-width: 480px) {
     body {
         font-family: sans-serif;
-        color: #252222;
+        color: #000000;
         background-color: #BCB1CC;
         /*background-color: #ffffbe;*/
         line-height: 1.4;
@@ -138,7 +137,7 @@ article {
     }
     header {
         width: 94%;
-        margin: auto;
+        margin: 0px auto 0px auto;
         padding: auto;
         text-align: center;
         background-color: #FFFFFF;
@@ -237,5 +236,8 @@ article {
         margin: auto;
         padding: auto;
         background-color: #FFFFFF;
+    }
+    section {
+        padding: 4px;
     }
 }
