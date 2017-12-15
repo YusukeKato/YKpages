@@ -137,17 +137,19 @@ section {
         /*background-color: #ffffbe;*/
         line-height: 1.4;
         margin: auto;
-        padding: atuo;
-        overflow: none;
+        padding: auto;
+        overflow: auto;
         width: 94%;
     }
     header {
         width: 94%;
-        margin: 1px auto -1px auto;
-        padding: auto;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
         text-align: center;
         background-color: #FFFFFF;
-        overflow: none;
+        overflow: auto;
     }
     .hootering {
         width: 94%;
