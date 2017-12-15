@@ -132,87 +132,119 @@ section {
 @media screen and (max-width: 480px) {
     body {
         font-family: sans-serif;
-        color: #000000;
-        background-color: #BCB1CC;
+        color: #252222;
+        background-color: #F6F4F8;
+        /*background-color: #ffffbe;*/
         line-height: 1.4;
-        width: 94%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     header {
-        width: 100%;
-        background-color: #FFFFFF;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
+        text-align: center;
     }
     .hootering {
-        width: 94%;
-        background-color: #FFFFFF;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
+        text-align: center;
     }
     hr {
-        border: 2px #AAA;
+        border-top: dashed 3px #AAA;
+        height: 3px;
         color: #FFFFFF;
-        width: 94%;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     h1 {
-        font-size: 14px;
+        font-size: 16px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     h2 {
-        font-size: 12px;
-    }
-    a {
-        color: #140470;
-        text-decoration: none;
-        font-size: 12px;
-    }
-    a:hover {
-        color: #0EF065;
-        font-size: 12px;
+        font-size: 14px;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     p {
-        font-size: 10px;
+        font-size: 12px;
+        margin-top: 0;
+        margin-bottom: 0;
         line-height: 1.2;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     .headline {
-        width: 94%;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
         text-align: center;
     }
     .info {
-        width: 94%;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
         text-align: center;
     }
     .info p {
         font-size: 12px;
     }
     .main {
-        margin: auto;
-        padding: auto;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
     }
     .main2 {
-        width: 94%;
+        width: 96%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 4px;
     }
     .link {
-        width: 94%;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
         text-align: center;
-        font-size: 12px;
+        font-size: 14px;
     }
     .license {
-        width: 94%;
+        width: 96%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 4px;
         text-align: center;
-        font-size: 10px;
     }
     pre {
         background-color: #000803;
         color: #FFFFFF;
-        line-height: 1.4;
-        font-size: 12px;
-        width: 94%;
+        line-height: 1.0;
+        width: 96%;
+        padding-top: 4px;
+        padding-left: 4px;
+        font-size: 14px;
+        overflow: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     code {
-        font-size: 12px;
-        line-height: 1.4;
+        font-size: 14px;
+        line-height: 1.0;
+        width: 100%;
         overflow: auto;
+        margin-left: 0px;
+        margin-right: 0px;
     }
     div {
-        width: 94%;
-    }
-    section {
-        width: 94%;
+        width: 96%;
+        padding-left: 4px;
     }
 }
