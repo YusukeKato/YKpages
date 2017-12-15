@@ -157,17 +157,17 @@ section {
         margin-right: 0px;
     }
     h1 {
-        font-size: 16px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    h2 {
         font-size: 14px;
         margin-left: 0px;
         margin-right: 0px;
     }
-    p {
+    h2 {
         font-size: 12px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    p {
+        font-size: 10px;
         margin: 0px;
         line-height: 1.2;
     }
@@ -184,7 +184,7 @@ section {
         text-align: center;
     }
     .info p {
-        font-size: 12px;
+        font-size: 10px;
     }
     .main {
         width: 94%;
@@ -212,16 +212,16 @@ section {
     pre {
         background-color: #000803;
         color: #FFFFFF;
-        line-height: 1.2;
+        line-height: 1.4;
         width: 94%;
-        font-size: 12px;
+        font-size: 10px;
         overflow: auto;
         margin-left: 0px;
         margin-right: 0px;
     }
     code {
-        font-size: 12px;
-        line-height: 1.2;
+        font-size: 10px;
+        line-height: 1.4;
         width: 100%;
         overflow: auto;
         margin-left: 0px;
