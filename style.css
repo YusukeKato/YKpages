@@ -137,6 +137,7 @@ section {
         line-height: 1.4;
         width: 94%;
         margin: 0;
+        padding-right: -60px;
     }
     header {
         width: 94%;
