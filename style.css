@@ -140,7 +140,7 @@ section {
         margin-right: 0px;
     }
     header {
-        width: 80%;
+        width: 96%;
         margin: auto;
         padding: auto;
         text-align: center;
@@ -220,6 +220,7 @@ section {
         margin-right: 0px;
         padding: 4px;
         text-align: center;
+        font-size: 10px;
     }
     pre {
         background-color: #000803;
@@ -253,5 +254,8 @@ section {
     a:hover {
         color: #10F167;
         font-size: 12px;
+    }
+    article {
+        width: 96%;
     }
 }
