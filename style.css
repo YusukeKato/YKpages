@@ -140,13 +140,13 @@ section {
         margin-right: 0px;
     }
     header {
-        width: 96%;
+        width: 94%;
         margin: auto;
         padding: auto;
         text-align: center;
     }
     .hootering {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -155,7 +155,7 @@ section {
     hr {
         border-top: 2px #AAA;
         color: #FFFFFF;
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
     }
@@ -178,14 +178,14 @@ section {
         margin-right: 0px;
     }
     .headline {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
         text-align: center;
     }
     .info {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -195,19 +195,19 @@ section {
         font-size: 12px;
     }
     .main {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
     }
     .main2 {
-        width: 96%;
+        width: 94%;
         margin-left: 0;
         margin-right: 0;
         padding: 4px;
     }
     .link {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -215,7 +215,7 @@ section {
         font-size: 12px;
     }
     .license {
-        width: 96%;
+        width: 94%;
         margin-left: 0px;
         margin-right: 0px;
         padding: 4px;
@@ -226,7 +226,7 @@ section {
         background-color: #000803;
         color: #FFFFFF;
         line-height: 1.0;
-        width: 96%;
+        width: 94%;
         padding-top: 4px;
         padding-left: 4px;
         font-size: 12px;
@@ -243,7 +243,7 @@ section {
         margin-right: 0px;
     }
     div {
-        width: 96%;
+        width: 94%;
         padding-left: 4px;
     }
     a {
@@ -256,6 +256,6 @@ section {
         font-size: 12px;
     }
     article {
-        width: 96%;
+        width: 94%;
     }
 }
