@@ -26,7 +26,7 @@ header {
     background-color: #FFFFFF;
 }
 hr {
-    border: 2px #AAA;
+    border: 1px #0A0A0A;
     width: 80%;
 }
 mark {
@@ -70,8 +70,10 @@ h1 {
     margin: 0px;
 }
 h2 {
-    font-size: 24px;
-    padding: 8px;
+    font-size: 20px;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 p {
     font-size: 16px;
@@ -167,17 +169,21 @@ section {
         font-size: 18px;
         margin-left: 0px;
         margin-right: 0px;
+        padding-top: 6px;
+        padding-bottom: 6px;
     }
     h2 {
         font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
+        padding-top: 8px;
+        padding-bottom: 4px;
     }
     p {
         font-size: 14px;
         margin-top: 0;
         margin-bottom: 0;
-        line-height: 1.2;
+        line-height: 1.6;
         margin-left: 0px;
         margin-right: 0px;
     }
