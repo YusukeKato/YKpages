@@ -164,17 +164,17 @@ section {
         margin-right: 0px;
     }
     h1 {
-        font-size: 14px;
+        font-size: 18px;
         margin-left: 0px;
         margin-right: 0px;
     }
     h2 {
-        font-size: 12px;
+        font-size: 16px;
         margin-left: 0px;
         margin-right: 0px;
     }
     p {
-        font-size: 12px;
+        font-size: 14px;
         margin-top: 0;
         margin-bottom: 0;
         line-height: 1.2;
@@ -233,13 +233,13 @@ section {
         width: 94%;
         padding-top: 4px;
         padding-left: 4px;
-        font-size: 12px;
+        font-size: 14px;
         overflow: auto;
         margin-left: 0px;
         margin-right: 0px;
     }
     code {
-        font-size: 12px;
+        font-size: 14px;
         line-height: 1.0;
         width: 100%;
         overflow: auto;
